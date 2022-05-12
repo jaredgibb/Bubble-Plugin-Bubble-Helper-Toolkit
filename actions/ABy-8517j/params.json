@@ -1,0 +1,22 @@
+{
+    "category": "analytics",
+    "display": "Seconds To Date",
+    "fields": {
+        "ABz": {
+            "caption": "seconds",
+            "editor": "DynamicValue",
+            "name": "seconds",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ACA": {
+            "caption": "date",
+            "name": "date",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "type": "server_side"
+}

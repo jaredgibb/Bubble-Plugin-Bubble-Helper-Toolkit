@@ -1,0 +1,12 @@
+{
+    "caption": "updateValue",
+    "fields": {
+        "ACQ": {
+            "caption": "value",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

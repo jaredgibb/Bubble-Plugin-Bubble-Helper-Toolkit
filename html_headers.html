@@ -1,0 +1,137 @@
+
+
+<script>
+window['key1'] = 'a'
+window['key2'] = 'b'
+window['key3'] = 'c'
+window['key4'] = 'd'
+window['key5'] = 'e'
+window['key6'] = 'f'
+window['key7'] = 'g'
+window['key8'] = 'h'
+window['key9'] = 'i'
+window['key10'] = 'j'
+    
+ if (window.column1name == null || window.column1name == 'undefined')   {
+     window.column1name = 'Column 1'
+ }
+     if (window.column2name == null || window.column2name == 'undefined')   {
+     window.column2name = 'Column 2'
+ } if (window.column3name == null || window.column3name == 'undefined')   {
+     window.column3name = 'Column 3'
+ } if (window.column4name == null || window.column4name == 'undefined')   {
+     window.column4name = 'Column 4'
+ } if (window.column5name == null || window.column5name == 'undefined')   {
+     window.column5name = 'Column 5'
+ } if (window.column6name == null || window.column6name == 'undefined')   {
+     window.column6name = 'Column 6'
+ } if (window.column7name == null || window.column7name == 'undefined')   {
+     window.column7name = 'Column 7'
+ } if (window.column8name == null || window.column8name == 'undefined')   {
+     window.column8name = 'Column 8'
+ } if (window.column9name == null || window.column9name == 'undefined')   {
+     window.column9name = 'Column 8'
+ } if (window.column10name == null || window.column10name == 'undefined')   {
+     window.column10name = 'Column 10'
+ }
+
+window['rvar'] = {};
+
+window.addRvarInstance = function(list_name, instance) {
+  if (!window['rvar'][list_name]) {
+    window['rvar'][list_name] = {
+      data: [],
+      instances: [],
+      maxlength: 100000
+    };
+  }
+  if (instance) {
+    if ((window['rvar'][list_name]['instances']).indexOf(instance) == -1) {
+      (window['rvar'][list_name]['instances']).push(instance);
+    }
+  }
+}
+
+window.publishRvarValue = function(list_name) {
+  var column1_list = [],
+    column2_list = [],
+    column3_list = [],
+    column4_list = [],
+    column5_list = [],
+    column6_list = [],
+    column7_list = [],
+    column8_list = [],
+    column9_list = [],
+    column10_list = [];
+
+  (window['rvar'][list_name]['data']).forEach(function(cell, i) {
+    if (window['rvar'][list_name]['maxlength'] > i) {
+      column1_list[i] = cell.column1;
+      column2_list[i] = cell.column2;
+      column3_list[i] = cell.column3;
+      column4_list[i] = cell.column4;
+      column5_list[i] = cell.column5;
+      column6_list[i] = cell.column6;
+      column7_list[i] = cell.column7;
+      column8_list[i] = cell.column8;
+      column9_list[i] = cell.column9;
+      column10_list[i] = cell.column10;
+
+    }
+  });
+  let returnJSON = [{'a':window.column1name,'b':window.column2name,'c':window.column3name, 'd':window.column4name, 'e':window.column5name, 'f':window.column6name, 'g':window.column7name, 'h':window.column8name, 'i':window.column9name, 'j':window.column10name}]
+  column1_list.map((elm, ind) => {
+    returnJSON.push({
+      [window.key1]: column1_list[ind],
+      [window.key2]: column2_list[ind],
+      [window.key3]: column3_list[ind],
+      [window.key4]: column4_list[ind],
+      [window.key5]: column5_list[ind],
+      [window.key6]: column6_list[ind],
+      [window.key7]: column7_list[ind],
+      [window.key8]: column8_list[ind],
+      [window.key9]: column9_list[ind],
+      [window.key10]: column10_list[ind]
+    })
+  })
+
+  function postDataToInstance(thisinstance) {
+	thisinstance.publishState('jsonstring', JSON.stringify(returnJSON,null,3))
+      
+      
+          var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(returnJSON));
+			thisinstance.publishState('json_file', dataStr)
+			window.jsonfile = returnJSON
+    thisinstance.publishState('column_1_list', []);
+    thisinstance.publishState('column_2_list', []);
+    thisinstance.publishState('column_3_list', []);
+    thisinstance.publishState('column_4_list', []);
+    thisinstance.publishState('column_5_list', []);
+    thisinstance.publishState('column_6_list', []);
+    thisinstance.publishState('column_7_list', []);
+    thisinstance.publishState('column_8_list', []);
+    thisinstance.publishState('column_9_list', []);
+    thisinstance.publishState('column_10_list', []);
+      
+      
+    thisinstance.publishState('column_1_list', column1_list);
+    thisinstance.publishState('column_2_list', column2_list);
+    thisinstance.publishState('column_3_list', column3_list);
+    thisinstance.publishState('column_4_list', column4_list);
+    thisinstance.publishState('column_5_list', column5_list);
+    thisinstance.publishState('column_6_list', column6_list);
+    thisinstance.publishState('column_7_list', column7_list);
+    thisinstance.publishState('column_8_list', column8_list);
+    thisinstance.publishState('column_9_list', column9_list);
+    thisinstance.publishState('column_10_list', column10_list);
+}
+
+
+    (window.rvar)[list_name]['instances'].forEach(postDataToInstance);
+
+  
+}
+
+</script>
+
+

@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "demo_page": "jaredgibbb.bubbleapps.io/data_extractor",
+    "description": "Everyone needs to get data out of the RG from time to time. This tool does that for you and lets you work with that data elsewhere in your app. Want to total some elements form your RG?\n\nOutput up to 10 'columns' of data from your RG by placing one transmitter into the first cell! \n\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1621975317992x854225445375405400/px1.jpeg",
+    "license": "open_source",
+    "link": "https://bubble.io/page?type=page&name=data_extractor&id=jaredgibb&tab=-1",
+    "name": "Bubble Helper Toolkit ",
+    "plugin_instructions": "Place the transmitter in a cell of your RG\nplace the receiver on the page\n\nensure the Extractor Name field matches in both elements\n\nset the max length in both elements to be the :count for the RG you are extracting from\n\nset your columns in the transmitter to be 1 field from the RG cell\n\nset your receiver to be a matching data type\n\n\nthat should be it! \n"
+}

@@ -1,0 +1,126 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 25,
+        "width": 25
+    },
+    "display": "Transmit Data",
+    "fields": {
+        "AAC": {
+            "caption": "Extractor Name",
+            "default_val": "ExtractorX",
+            "editor": "StaticText",
+            "name": "list_name",
+            "rank": 0
+        },
+        "AAD": {
+            "caption": "cell_index",
+            "editor": "DynamicValue",
+            "name": "cell_index",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAE": {
+            "caption": "Output 1",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "column1",
+            "optional": true,
+            "rank": 2,
+            "value": "_any_thing"
+        },
+        "AAF": {
+            "caption": "Output 2",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "column2",
+            "optional": true,
+            "rank": 3,
+            "value": "_any_thing"
+        },
+        "AAG": {
+            "caption": "Output 3",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "column3",
+            "optional": true,
+            "rank": 4,
+            "value": "_any_thing"
+        },
+        "AAH": {
+            "caption": "Output 4",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "column4",
+            "optional": true,
+            "rank": 5,
+            "value": "_any_thing"
+        },
+        "AAI": {
+            "caption": "Output 5",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "column5",
+            "optional": true,
+            "rank": 6,
+            "value": "_any_thing"
+        },
+        "AAJ": {
+            "caption": "auto publish changes",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "auto_publish_changes",
+            "rank": 12
+        },
+        "AAK": {
+            "caption": "maxlength",
+            "editor": "DynamicValue",
+            "name": "maxlength",
+            "rank": 13,
+            "value": "number"
+        },
+        "AAs": {
+            "caption": "Output 6",
+            "editor": "DynamicValue",
+            "name": "column6",
+            "optional": true,
+            "rank": 7,
+            "value": "_any_thing"
+        },
+        "AAt": {
+            "caption": "Output 7",
+            "editor": "DynamicValue",
+            "name": "column7",
+            "optional": true,
+            "rank": 8,
+            "value": "_any_thing"
+        },
+        "AAu": {
+            "caption": "Output 8",
+            "editor": "DynamicValue",
+            "name": "column8",
+            "optional": true,
+            "rank": 9,
+            "value": "_any_thing"
+        },
+        "AAv": {
+            "caption": "Output 9",
+            "editor": "DynamicValue",
+            "name": "column9",
+            "optional": true,
+            "rank": 10,
+            "value": "_any_thing"
+        },
+        "AAw": {
+            "caption": "Output 10",
+            "editor": "DynamicValue",
+            "name": "column10",
+            "optional": true,
+            "rank": 11,
+            "value": "_any_thing"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-music-note"
+}

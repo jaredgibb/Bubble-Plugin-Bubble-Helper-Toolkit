@@ -1,0 +1,304 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 25,
+        "width": 30
+    },
+    "display": "Receive Data",
+    "fields": {
+        "AAf": {
+            "caption": "Extractor Name",
+            "editor": "StaticText",
+            "name": "list_name",
+            "optional": false,
+            "rank": 0
+        },
+        "AAg": {
+            "caption": "Data Type 1",
+            "editor": "custom_type",
+            "name": "col_1",
+            "optional": true,
+            "rank": 1,
+            "value": "_any_thing"
+        },
+        "AAh": {
+            "caption": "Data Type 2",
+            "editor": "custom_type",
+            "name": "col_2",
+            "optional": true,
+            "rank": 2,
+            "value": "_any_thing"
+        },
+        "AAi": {
+            "caption": "Data Type 3",
+            "editor": "custom_type",
+            "name": "col_3",
+            "optional": true,
+            "rank": 3
+        },
+        "AAj": {
+            "caption": "Data Type 4",
+            "doc": "",
+            "editor": "custom_type",
+            "name": "col_4",
+            "optional": true,
+            "rank": 4
+        },
+        "AAk": {
+            "caption": "Data Type 5",
+            "editor": "custom_type",
+            "name": "col_5",
+            "optional": true,
+            "rank": 5
+        },
+        "AAl": {
+            "caption": "maxlength",
+            "editor": "DynamicValue",
+            "name": "maxlength",
+            "rank": 11,
+            "value": "number"
+        },
+        "ABD": {
+            "caption": "Data Type 7",
+            "editor": "custom_type",
+            "name": "col_7",
+            "optional": true,
+            "rank": 7
+        },
+        "ABE": {
+            "caption": "Data Type 8",
+            "editor": "custom_type",
+            "name": "col_8",
+            "optional": true,
+            "rank": 8
+        },
+        "ABF": {
+            "caption": "Data Type 9",
+            "editor": "custom_type",
+            "name": "col_9",
+            "optional": true,
+            "rank": 9
+        },
+        "ABG": {
+            "caption": "Data Type 10",
+            "editor": "custom_type",
+            "name": "col_10",
+            "optional": true,
+            "rank": 10
+        },
+        "ABJ": {
+            "caption": "col_6",
+            "editor": "custom_type",
+            "name": "col_6",
+            "optional": true,
+            "rank": 6
+        },
+        "ABL": {
+            "caption": "Col 1 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col1name",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "Col 2 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col2name",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "ABN": {
+            "caption": "Col 3 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col3name",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "ABO": {
+            "caption": "Col 4 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col4name",
+            "optional": true,
+            "rank": 15,
+            "value": "text"
+        },
+        "ABP": {
+            "caption": "Col 5 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col5name",
+            "optional": true,
+            "rank": 16,
+            "value": "text"
+        },
+        "ABQ": {
+            "caption": "Col 6 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col6name",
+            "optional": true,
+            "rank": 17,
+            "value": "text"
+        },
+        "ABR": {
+            "caption": "Col 7 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col7name",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "ABS": {
+            "caption": "Col 8 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col8name",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        },
+        "ABT": {
+            "caption": "Col 9 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col9name",
+            "optional": true,
+            "rank": 20,
+            "value": "text"
+        },
+        "ABU": {
+            "caption": "Col 10 Name",
+            "default_val": "Column Name",
+            "editor": "DynamicValue",
+            "name": "col10name",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "ABV": {
+            "caption": "CSV File Name",
+            "default_val": "Your CSV",
+            "editor": "StaticText",
+            "name": "csv_file_name",
+            "rank": 22
+        }
+    },
+    "icon": "ion-headphone",
+    "states": {
+        "AAm": {
+            "caption": "column1_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_1_list",
+            "value": "custom_data_AAg"
+        },
+        "AAn": {
+            "caption": "column2_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_2_list",
+            "value": "custom_data_AAh"
+        },
+        "AAo": {
+            "caption": "column3_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_3_list",
+            "value": "custom_data_AAi"
+        },
+        "AAp": {
+            "caption": "column4_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_4_list",
+            "value": "custom_data_AAj"
+        },
+        "AAq": {
+            "caption": "column5_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_5_list",
+            "value": "custom_data_AAk"
+        },
+        "AAx": {
+            "caption": "column_5_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_6_list",
+            "value": "custom_data_ABJ"
+        },
+        "AAy": {
+            "caption": "column_7_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_7_list",
+            "value": "custom_data_ABD"
+        },
+        "AAz": {
+            "caption": "column_8_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_8_list",
+            "value": "custom_data_ABE"
+        },
+        "ABA": {
+            "caption": "column_9_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_9_list",
+            "value": "custom_data_ABF"
+        },
+        "ABB": {
+            "caption": "column_10_list",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "column_10_list",
+            "value": "custom_data_ABG"
+        },
+        "ABH": {
+            "caption": "jsonstring",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "jsonstring",
+            "value": "text"
+        },
+        "ABI": {
+            "caption": "csv",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "json_file",
+            "value": "file"
+        }
+    }
+}

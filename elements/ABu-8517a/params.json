@@ -1,0 +1,206 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 38,
+        "width": 30
+    },
+    "display": "If --> Then",
+    "fields": {
+        "ABW": {
+            "caption": "Result 1 Type",
+            "editor": "custom_type",
+            "name": "value1",
+            "optional": true,
+            "rank": 0
+        },
+        "ABX": {
+            "caption": "Result 2 Type",
+            "editor": "custom_type",
+            "name": "value2",
+            "optional": true,
+            "rank": 1
+        },
+        "ABY": {
+            "caption": "Condition 2",
+            "editor": "DynamicValue",
+            "name": "condition_2",
+            "optional": true,
+            "rank": 5,
+            "value": "boolean"
+        },
+        "ABZ": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_2",
+            "optional": true,
+            "rank": 6,
+            "value": "custom_data_ABW"
+        },
+        "ABa": {
+            "caption": "Result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_2",
+            "optional": true,
+            "rank": 7,
+            "value": "custom_data_ABX"
+        },
+        "ABb": {
+            "caption": "Condition 1",
+            "editor": "DynamicValue",
+            "name": "condition_1",
+            "optional": true,
+            "rank": 2,
+            "value": "boolean"
+        },
+        "ABc": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_1",
+            "optional": true,
+            "rank": 3,
+            "value": "custom_data_ABW"
+        },
+        "ABd": {
+            "caption": "Result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_1",
+            "optional": true,
+            "rank": 4,
+            "value": "custom_data_ABX"
+        },
+        "ABe": {
+            "caption": "Condition 3",
+            "editor": "DynamicValue",
+            "name": "condition_3",
+            "optional": true,
+            "rank": 8,
+            "value": "boolean"
+        },
+        "ABf": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_3",
+            "optional": true,
+            "rank": 9,
+            "value": "custom_data_ABW"
+        },
+        "ABg": {
+            "caption": "Result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_3",
+            "optional": true,
+            "rank": 10,
+            "value": "custom_data_ABX"
+        },
+        "ABh": {
+            "caption": "Condition 4",
+            "editor": "DynamicValue",
+            "name": "condition_4",
+            "optional": true,
+            "rank": 11,
+            "value": "boolean"
+        },
+        "ABi": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_4",
+            "optional": true,
+            "rank": 12,
+            "value": "custom_data_ABW"
+        },
+        "ABj": {
+            "caption": "Result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_4",
+            "optional": true,
+            "rank": 13,
+            "value": "custom_data_ABX"
+        },
+        "ABk": {
+            "caption": "Condition",
+            "editor": "DynamicValue",
+            "name": "condition_5",
+            "optional": true,
+            "rank": 14,
+            "value": "boolean"
+        },
+        "ABl": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_5",
+            "optional": true,
+            "rank": 15,
+            "value": "custom_data_ABW"
+        },
+        "ABm": {
+            "caption": "Result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_5",
+            "optional": true,
+            "rank": 16,
+            "value": "custom_data_ABX"
+        },
+        "ABn": {
+            "caption": "Condition 6",
+            "editor": "DynamicValue",
+            "name": "condition_6",
+            "optional": true,
+            "rank": 17,
+            "value": "boolean"
+        },
+        "ABo": {
+            "caption": "Result 1",
+            "editor": "DynamicValue",
+            "name": "value_6",
+            "optional": true,
+            "rank": 18,
+            "value": "custom_data_ABW"
+        },
+        "ABp": {
+            "caption": "result 2",
+            "editor": "DynamicValue",
+            "name": "valuetwo_6",
+            "optional": true,
+            "rank": 19,
+            "value": "custom_data_ABX"
+        },
+        "ABq": {
+            "caption": "active",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "active",
+            "rank": 20
+        },
+        "ABr": {
+            "caption": "run_automatically",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "run_automatically",
+            "rank": 21
+        }
+    },
+    "icon": "ion-pull-request",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ABs": {
+            "caption": "Result 1",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value",
+            "value": "custom_data_ABW"
+        },
+        "ABt": {
+            "caption": "Result 2",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "valuetwo",
+            "value": "custom_data_ABX"
+        }
+    }
+}

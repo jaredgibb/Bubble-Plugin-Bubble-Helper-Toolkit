@@ -1,0 +1,48 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Linear Regression",
+    "fields": {
+        "ACC": {
+            "caption": "yvalues",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yvalues",
+            "rank": 0,
+            "value": "number"
+        },
+        "ACD": {
+            "caption": "howmany",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "howmany",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "states": {
+        "ACE": {
+            "caption": "X Values",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "xvalues",
+            "value": "number"
+        },
+        "ACF": {
+            "caption": "Y Values",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "yvalues",
+            "value": "number"
+        }
+    }
+}
